@@ -100,3 +100,106 @@ header, .navbar{
 .carousel-indicators .active{
     background-color: #65DAF9;
 }
+
+/* SOBRE */
+
+#about-area{
+    background-color: #f9f9f9;
+}
+
+.main-title{
+    color: #444;
+    font-size: 40px;
+    margin: 0 0 65px 0;
+    text-align: center;
+}
+
+#img-about{
+    height: 60vh;
+    width: 40vw;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 31px;
+}
+
+#about-list i{
+    color: #65DAF9;
+    margin-right: 15px;
+}
+
+/* SERVIÇOS */
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4, .service-box p{
+    transition: .5s;
+    color: #444;
+}
+
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{
+    color: #65DAF9;
+}
+
+/* DADOS */
+
+.circle-box{
+    padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* TIME */
+
+.card-body{
+    text-align: center;
+}
+
+.card-img-top{
+    width: 253px;
+    height: 300px;
+}
