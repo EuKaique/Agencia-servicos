@@ -383,3 +383,180 @@ header, .navbar{
     height: auto;
     letter-spacing: 2px;
 }
+
+/* RODAPÉ */
+
+#contact-area{
+    text-align:center;
+}
+
+.contact-box{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #3EC1D5;
+}
+
+.contact-box i{
+    color:#444;
+    font-size:24px;
+    width:55px;
+    height:55px;
+    line-height:55px;
+    border-radius:50%;
+    border: 1px solid #444;
+    margin-bottom: 20px;
+}
+
+.contact-box p{
+    font-size:16px;
+}
+
+.contact-title{
+    font-weight:bold;
+    color: #3EC1D5;
+}
+
+#msg-box p{
+    font-size:22px;
+}
+
+#contact-form input[type="email"],#contact-form input[type="text"],#contact-form textarea{
+    border-radius:0;
+    margin-bottom:15px;
+}
+
+#contact-form .main-btn{
+    width:120px;
+    height:50px;
+}
+
+#contact-form .main-btn:hover{
+    color:#3EC1D5;
+}
+
+#copy-area{
+    background-color: #f1f1f1;
+}
+
+#copy-area .container{
+    text-align:center;
+    padding: 10px 0;
+}
+
+#copy-area .container p{
+    margin-bottom:0;
+}
+
+#copy-area .container a{
+    color:#444;
+    font-weight:bold;
+}
+
+#copy-area .container a:hover{
+    text-decoration:none;
+    color:#3EC1D5;
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width:768px){
+
+    /* geral */
+    .container{
+        padding:20px 0;
+    }
+
+    /* slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height:auto;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size:28px;
+    }
+
+    #mainSlider .carousel-caption p{
+        font-size:18px;
+        margin-bottom:40px;
+    }
+
+    .carousel-caption{
+        left:10%;
+        right:10%;
+    }
+
+    /* Sobre a empresa */
+    #img-about {
+        height: auto;
+        width: auto;
+    }
+    #about-area img{
+        margin-top:40px;
+    }
+
+    /* Dados */
+    .circle-box{
+        padding: 0 20px;
+    }
+
+    #data-area p{
+        font-size:16px;
+    }
+
+    /* Nosso time */
+    .card-img-top {
+        width: 150px;
+        height: 300px;
+    }
+
+    .card-title {
+        margin-bottom: .75rem;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .card-body p{
+        font-size:12px;
+    }
+
+    /* Trabalhe conosco */
+    #apply-area .apply-box{
+        padding: 50px 25px;
+    }
+
+    /* Newsletter */
+    #news-area {
+        text-align: center;
+        background-color: #f9f9f9;
+        height: 30vh;
+    }
+
+    #news-area p{
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #email-input{
+        width:70%;
+    }
+
+    #call-area{
+        margin-top:0px;
+    }
+
+    #call-area .container{
+        padding: 30px;
+    }
+
+    #call-area p, #call-area #call-btn{
+        font-size: 16px;
+    }
+
+    /* Rodapé */
+
+    .contact-box p {
+        font-size: 11px;
+    }
+
+}
