@@ -640,6 +640,7 @@ header, .navbar{
 
     #news-area p{
         font-size: 16px;
+
     }
 
     #email-input{
@@ -657,5 +658,38 @@ header, .navbar{
     .contact-box{
         border: none;
         margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:400px){
+    .card-img-top {
+        width: 169px;
+        height: 300px;
+    }
+    #email-input {
+        width: 80%;
+        outline: none;
+    }
+}
+
+@media screen and (max-width:380px){
+    .card-img-top {
+        width: 159px;
+        height: 300px;
+    }
+    #email-input {
+        width: 80%;
+        outline: none;
+    }
+}
+
+@media screen and (max-width:360px){
+    .card-img-top {
+        width: 149px;
+        height: 300px;
+    }
+    #email-input {
+        width: 80%;
+        outline: none;
     }
 }
