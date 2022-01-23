@@ -659,6 +659,14 @@ header, .navbar{
         border: none;
         margin-bottom: 0;
     }
+    .main-title::after {
+        content: "";
+        border-top: 0;
+        width: 15%;
+        position: absolute;
+        top: 60px;
+        left: 42.5%;
+    }
 }
 
 @media screen and (max-width:400px){
@@ -669,6 +677,14 @@ header, .navbar{
     #email-input {
         width: 80%;
         outline: none;
+    }
+    .main-title::after {
+        content: "";
+        border-top: 0;
+        width: 15%;
+        position: absolute;
+        top: 60px;
+        left: 42.5%;
     }
 }
 
@@ -681,6 +697,14 @@ header, .navbar{
         width: 80%;
         outline: none;
     }
+    .main-title::after {
+        content: "";
+        border-top: 0;
+        width: 15%;
+        position: absolute;
+        top: 60px;
+        left: 42.5%;
+    }
 }
 
 @media screen and (max-width:360px){
@@ -691,5 +715,13 @@ header, .navbar{
     #email-input {
         width: 80%;
         outline: none;
+    }
+    .main-title::after {
+        content: "";
+        border-top: 0;
+        width: 15%;
+        position: absolute;
+        top: 60px;
+        left: 42.5%;
     }
 }
