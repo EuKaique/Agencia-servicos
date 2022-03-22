@@ -633,14 +633,23 @@ header, .navbar{
     #news-area {
         text-align: center;
         background-color: #f9f9f9;
-        height: 45vh;
+        height: 48vh;
     }
     .about-title {
         font-size: 17px;
         color: #444;
         text-transform: uppercase;
+        text-align: center;
         font-weight: bold;
         margin-top: 1rem;
+    }
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: none;
+        margin-bottom: 1rem;
     }
 
 }
