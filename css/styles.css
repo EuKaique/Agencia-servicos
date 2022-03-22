@@ -562,6 +562,82 @@ header, .navbar{
 
 }
 
+@media screen and (max-width: 620px){
+    #mainSlider .carousel-caption h2 {
+        font-size: 20px;
+    }
+    #mainSlider .carousel-caption p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    #mainSlider .carousel-caption p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .main-btn {
+        text-decoration: none;
+        background-color: #65DAF9;
+        color: #fff;
+        text-transform: uppercase;
+        transition: .5s;
+        width: 180px;
+        height: 40px;
+        padding: 10px 12px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        font-size: 14px;
+    }
+    .circle-box {
+        padding: 0 20px;
+        width: 280px;
+        margin-left: 7rem;
+        text-shadow: 1px 1px 2px black, 0 0 1em rgb(15, 140, 212), 0 0 0.2em rgb(15, 140, 212);
+    }
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        width: 50%;
+        margin-left: 22%;
+        margin-bottom: 1rem;
+    }
+    .card-img-top {
+        width: 245px;
+        height: 300px;
+    }
+    #portfolio-area .filter-btn {
+        color: #444;
+        border: 1px solid #444;
+        background-color: transparent;
+        text-transform: none;
+        margin: 0 15px 1rem 0;
+        min-width: 100px;
+        width: auto;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+    .img-fluid {
+        max-width: 75%;
+        margin-left: 12%;
+        height: auto;
+    }
+    #news-area {
+        text-align: center;
+        background-color: #f9f9f9;
+        height: 36vh;
+    }
+
+}
+
 @media screen and (max-width:425px){
     /* Slider */
     #mainSlider{
