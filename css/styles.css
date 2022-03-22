@@ -633,7 +633,14 @@ header, .navbar{
     #news-area {
         text-align: center;
         background-color: #f9f9f9;
-        height: 42vh;
+        height: 45vh;
+    }
+    .about-title {
+        font-size: 17px;
+        color: #444;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 1rem;
     }
 
 }
