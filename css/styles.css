@@ -686,6 +686,12 @@ header, .navbar{
         top: 60px;
         left: 42.5%;
     }
+    #news-area p{
+        display: none;
+    }
+    input [type='email']{
+        outline: none;
+    }
 }
 
 @media screen and (max-width:380px){
@@ -705,6 +711,12 @@ header, .navbar{
         top: 60px;
         left: 42.5%;
     }
+    #news-area p{
+        display: none;
+    }
+    input [type='email']{
+        outline: none;
+    }
 }
 
 @media screen and (max-width:360px){
@@ -723,5 +735,11 @@ header, .navbar{
         position: absolute;
         top: 60px;
         left: 42.5%;
+    }
+    #news-area p{
+        display: none;
+    }
+    input [type='email']{
+        outline: none;
     }
 }
