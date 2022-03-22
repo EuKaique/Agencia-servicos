@@ -667,6 +667,7 @@ header, .navbar{
         top: 60px;
         left: 42.5%;
     }
+    
 }
 
 @media screen and (max-width:400px){
@@ -689,8 +690,13 @@ header, .navbar{
     #news-area p{
         display: none;
     }
-    input [type='email']{
-        outline: none;
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: none;
+        margin-bottom: 1rem;
     }
 }
 
@@ -714,8 +720,13 @@ header, .navbar{
     #news-area p{
         display: none;
     }
-    input [type='email']{
-        outline: none;
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: none;
+        margin-bottom: 1rem;
     }
 }
 
@@ -739,7 +750,12 @@ header, .navbar{
     #news-area p{
         display: none;
     }
-    input [type='email']{
-        outline: none;
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: none;
+        margin-bottom: 1rem;
     }
 }
