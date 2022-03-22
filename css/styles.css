@@ -562,7 +562,7 @@ header, .navbar{
 
 }
 
-@media screen and (max-width: 620px){
+@media screen and (min-width: 426px) and (max-width: 765px){
     #mainSlider .carousel-caption h2 {
         font-size: 20px;
     }
