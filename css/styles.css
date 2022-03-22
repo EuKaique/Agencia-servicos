@@ -590,7 +590,7 @@ header, .navbar{
     .circle-box {
         padding: 0 20px;
         width: 280px;
-        margin-left: 7rem;
+        margin-left: 23%;
         text-shadow: 1px 1px 2px black, 0 0 1em rgb(15, 140, 212), 0 0 0.2em rgb(15, 140, 212);
     }
     .card {
@@ -610,7 +610,7 @@ header, .navbar{
         margin-bottom: 1rem;
     }
     .card-img-top {
-        width: 245px;
+        width: 100%;
         height: 300px;
     }
     #portfolio-area .filter-btn {
@@ -633,7 +633,7 @@ header, .navbar{
     #news-area {
         text-align: center;
         background-color: #f9f9f9;
-        height: 36vh;
+        height: 42vh;
     }
 
 }
